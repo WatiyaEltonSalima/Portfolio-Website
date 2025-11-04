@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watiya Elton Salima | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-all">
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="fixed w-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">WES Portfolio</h1>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+        <li><a href="#experience" class="hover:text-blue-500">Experience</a></li>
+        <li><a href="#achievements" class="hover:text-blue-500">Achievements</a></li>
+        <li><a href="#work" class="hover:text-blue-500">Work</a></li>
+        <li><a href="#resume" class="hover:text-blue-500">Resume</a></li>
+      </ul>
+      <button id="toggle-dark" class="md:hidden border px-3 py-1 rounded">🌙</button>
+    </nav>
+  </header>
+
+  <main class="pt-24 space-y-20">
+
+    <!-- ====== HERO / ABOUT ====== -->
+    <section id="about" class="container mx-auto px-6" data-aos="fade-up">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <img src="https://via.placeholder.com/200" alt="Profile" class="rounded-full w-48 shadow-lg">
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Watiya Elton Salima</h2>
+          <p class="text-lg mb-4">Creative Technologist | AI Enthusiast | Business Innovator</p>
+          <p class="text-gray-600 dark:text-gray-300 max-w-2xl">
+            I’m passionate about building digital products, exploring AI, and designing impactful solutions. 
+            This portfolio showcases my work, achievements, and technical journey.
+          </p>
+          <a href="#resume" class="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700">View My Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section id="skills" class="container mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-6">Skills</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg">
+          <h3 class="font-semibold">Frontend</h3>
+          <p>HTML, CSS, JavaScript, TailwindCSS, React</p>
+        </div>
+        <div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg">
+          <h3 class="font-semibold">Backend</h3>
+          <p>Node.js, Express, MySQL, MongoDB</p>
+        </div>
+        <div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg">
+          <h3 class="font-semibold">Tools & Workflow</h3>
+          <p>Git, VS Code, CapCut, Canva, AOS Animations</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EXPERIENCE ====== -->
+    <section id="experience" class="container mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-6">Experience</h2>
+      <div class="space-y-6">
+        <div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">PC Health Support & Consulting</h3>
+          <p class="text-sm text-gray-500">2025 – Present</p>
+          <p>Offering professional PC maintenance, software setup, and optimization services.</p>
+        </div>
+        <div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Creative & Business Projects</h3>
+          <p class="text-sm text-gray-500">2023 – 2025</p>
+          <p>Directed live theatre performances, managed media production, and built personal brand “The WES Collective”.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== ACHIEVEMENTS ====== -->
+    <section id="achievements" class="container mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-6">Achievements</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Directed 45-minute stage play “Muted Echoes”</li>
+        <li>Built full personal portfolio website with Tailwind CSS & AOS</li>
+        <li>Completed AI-driven product design projects</li>
+        <li>Launched PC Health Support business in Zambia</li>
+      </ul>
+    </section>
+
+    <!-- ====== WORK / PROJECTS ====== -->
+    <section id="work" class="container mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-6">Work & Projects</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg p-4">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1" class="rounded mb-3">
+          <h3 class="font-semibold">Smart Bottle Campaign</h3>
+          <p class="text-sm text-gray-500">AI + Product Marketing visuals using CapCut.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg p-4">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2" class="rounded mb-3">
+          <h3 class="font-semibold">Muted Echoes Stage Play</h3>
+          <p class="text-sm text-gray-500">Live theatre project with original Nollywood-inspired script.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== RESUME ====== -->
+    <section id="resume" class="container mx-auto px-6 text-center" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-4">Resume / CV</h2>
+      <p>Download my professional resume below:</p>
+      <a href="resume.pdf" download class="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700">Download Resume (PDF)</a>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="text-center py-6 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 mt-16">
+    © <span id="year"></span> Watiya Elton Salima · Built with ❤️ using Tailwind CSS
+  </footer>
+
+  <!-- ====== SCRIPTS ====== -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("toggle-dark").onclick = () =>
+      document.documentElement.classList.toggle("dark");
+  </script>
+
+</body>
+</html>
